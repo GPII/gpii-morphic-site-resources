@@ -86,7 +86,7 @@
             "service-close"
         ]
     },
-    "closeQssOnClickOutside": true,
+    "closeQssOnClickOutside": false,
     "disableRestartWarning": true,
     "openQssShortcut": "Shift+Ctrl+AltOrOption+SuperOrCmd+M",
     "qssMorePanel": {
@@ -126,5 +126,5 @@
         ],
         "userIdSource": "username"
     },
-    "metricsSwitch": "on:on"
+    "metricsSwitch": "off:on"
 }
