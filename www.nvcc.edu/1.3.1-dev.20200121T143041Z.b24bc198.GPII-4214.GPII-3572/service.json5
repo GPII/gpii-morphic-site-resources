@@ -22,7 +22,7 @@
         "files": [{
             // Auto-update the site config.
             path: "%ProgramData%\\Morphic\\siteConfig.json5",
-            url: "https://raw.githubusercontent.com/GPII/gpii-morphic-site-resources/master/nova/1.3.1-dev.20200121T143041Z.b24bc198.GPII-4214.GPII-3572/siteconfig.json5"
+            url: "https://raw.githubusercontent.com/GPII/gpii-morphic-site-resources/master/www.nvcc.edu/1.3.1-dev.20200121T143041Z.b24bc198.GPII-4214.GPII-3572/siteconfig.json5"
         }]
     },
     "siteConfigFile": [
