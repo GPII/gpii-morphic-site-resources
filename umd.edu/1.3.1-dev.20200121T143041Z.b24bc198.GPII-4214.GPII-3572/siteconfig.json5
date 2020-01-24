@@ -9,7 +9,7 @@
         "osSettingsAvailable": true,
         "showQssOnStart": true,
         "tooltipDisplayDelay": 500,
-        "scaleFactor": 1.2,
+        "scaleFactor": 1,
         "urls": {
             "account": "http://morphic.world/account",
             "cloudFolder": "https://docs.google.com/document/d/1QeSsIkgKT6RIy8SbXc1qP__5rSzl3asO8HmkylBjeVA/edit",
@@ -25,7 +25,7 @@
         },
         "systemDefaultLanguage": "en-US",
         "messages": {
-            "keyedOut": "To save you must insert a Morphic Key. Please ask for one at the Front Desk. If you have a key inserted and you see this message, remove the key and re-insert it, then you can Save."
+            "keyedOut": "RESET TO STANDARD button turns off Morphic SAVE as part of resetting everything. To re-apply your saved settings and turn SAVE back on - use the \"My Saved Settings\" button and click \"Re-apply my preferences\". OR you can use a Morphic Key if you have one."
         },
         "shareXPath": "C:\\Program Files (x86)\\Morphic\\sharex\\sharex-portable\\sharex.exe",
         "docuMorphExecutable": "C:\\Program Files (x86)\\Morphic\\documorph\\DocuMorph.Widget.exe",
@@ -33,50 +33,26 @@
         "buttonList": [
             {
                 "buttonId": "MakeYourOwn",
-                "buttonName": "Task Manager",
-                "buttonType": "KEY",
-                "buttonData": "^+{Escape}",
-                "popupText": "<p>Executes Ctrl+Shift+Esc combination, which opens Windows Task Manager.</p>"
-            },
-            {
-                "buttonId": "MakeYourOwn",
-                "buttonName": "Launch Notepad",
-                "buttonType": "APP",
-                "buttonData": "C:\\Windows\\system32\\notepad.exe",
-                "fullScreen": true,
-                "popupText": "<p>Launch the Notepad application.</p>",
-                "description": "The full description of the button..."
-            },
-            {
-                "buttonId": "MakeYourOwn",
-                "buttonName": "Open Reddit",
+                "buttonName": "ELMS",
                 "buttonType": "WEB",
-                "buttonData": "www.reddit.com",
+                "buttonData": "https://umd.instructure.com/",
                 "fullScreen": true,
-                "popupText": "<p>Open Reddit in a web browser.</p>",
-                "description": "The full description of the button..."
+                "popupText": "<p>Opens your my ELMs account.</p>"
             },
+            "url-google-drive",
+            "usb-open",
+            "office-simplification",
+            "snipping-tool",
             "separator",
             "language",
             "translate-tools",
             "screen-zoom",
             "text-zoom",
-            "screen-capture",
-            "snipping-tool",
-            "office-simplification",
             "high-contrast",
             "color-vision",
             "mouse",
             "read-aloud",
             "volume",
-            "launch-documorph",
-            "cloud-folder-open",
-            "usb-open",
-            "separator",
-            "url-google-drive",
-            "url-one-drive",
-            "url-dropbox",
-            "url-customize-qss",
             "separator-visible",
             "service-more",
             "service-save",
@@ -126,5 +102,5 @@
         ],
         "userIdSource": "username"
     },
-    "metricsSwitch": "off:on"
+    "metricsSwitch": "on:on"
 }
