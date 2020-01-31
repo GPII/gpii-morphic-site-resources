@@ -1,0 +1,106 @@
+{
+    "site": "umd.edu",
+    "hideQssSaveButton": false,
+    "defaultSettingsData": {
+        "relativePath": true,
+        "fileLocation": "gpii\\defaultSettings.json5"
+    },
+    "qss": {
+        "osSettingsAvailable": true,
+        "showQssOnStart": true,
+        "tooltipDisplayDelay": 500,
+        "scaleFactor": 1,
+        "urls": {
+            "account": "http://morphic.world/account",
+            "cloudFolder": "https://docs.google.com/document/d/1QeSsIkgKT6RIy8SbXc1qP__5rSzl3asO8HmkylBjeVA/edit",
+            "myGoogleDrive": "https://drive.google.com/",
+            "myOneDrive": "https://onedrive.live.com/about/signin/",
+            "myDropbox": "https://www.dropbox.com/login",
+            "customizeQss": "https://morphic.world/"
+        },
+        "alwaysUseChrome": false,
+        "languageOptionLabel": {
+            "currentLanguageGroup": "%native",
+            "genericLanguage": "%native · %local"
+        },
+        "systemDefaultLanguage": "en-US",
+        "messages": {
+            "keyedOut": "RESET TO STANDARD button turns off Morphic SAVE as part of resetting everything. To re-apply your saved settings and turn SAVE back on - use the \"My Saved Settings\" button and click \"Re-apply my preferences\". OR you can use a Morphic Key if you have one."
+        },
+        "shareXPath": "C:\\Program Files (x86)\\Morphic\\sharex\\sharex-portable\\sharex.exe",
+        "docuMorphExecutable": "C:\\Program Files (x86)\\Morphic\\documorph\\DocuMorph.Widget.exe",
+        "snippingToolCommand": "start ms-screenclip:",
+        "buttonList": [
+            {
+                "buttonId": "MakeYourOwn",
+                "buttonName": "ELMS",
+                "buttonType": "WEB",
+                "buttonData": "https://umd.instructure.com/",
+                "fullScreen": true,
+                "popupText": "<p>Opens your my ELMs account.</p>"
+            },
+            "url-google-drive",
+            "usb-open",
+            "office-simplification",
+            "snipping-tool",
+            "separator",
+            "language",
+            "translate-tools",
+            "screen-zoom",
+            "text-zoom",
+            "high-contrast",
+            "color-vision",
+            "mouse",
+            "read-aloud",
+            "volume",
+            "separator-visible",
+            "service-more",
+            "service-save",
+            "service-undo",
+            "service-saved-settings",
+            "service-reset-all",
+            "service-close"
+        ]
+    },
+    "closeQssOnClickOutside": false,
+    "disableRestartWarning": true,
+    "openQssShortcut": "Shift+Ctrl+AltOrOption+SuperOrCmd+M",
+    "qssMorePanel": {
+        "defaultWidth": 600,
+        "defaultHeight": 450,
+        "movable": true,
+        "resizable": true,
+        "alwaysOnTop": true,
+        "urls": {
+            "moreInfo": "http://morphic.world/more"
+        }
+    },
+    "aboutDialog": {
+        "urls": {
+            "morphicHome": "https://morphic.world",
+            "submitSuggestions": "mailto:suggestions@morphic.world"
+        }
+    },
+    "dialogManager": {
+        "showErrorDialog": true
+    },
+    "surveyTriggersUrl": "http://survey.gpii.net/novaMaTriggers.json",
+    "trayType": [
+        "gpii.app.trayButton"
+    ],
+    "metrics": {
+        "disable": false,
+        "disableInput": false
+    },
+    "autoLogin": {
+        "blockedUsers": [
+            "admin*",
+            "guest*",
+            "student*",
+            "visitor*",
+            "volunteer*"
+        ],
+        "userIdSource": "username"
+    },
+    "metricsSwitch": "on:on"
+}
